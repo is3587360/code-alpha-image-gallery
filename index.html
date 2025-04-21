@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image gallery</title>
+    <link rel="stylesheet"  href="index.css">
+</head>
+<body>
+    <h1>IMAGE  GALLERY</h1>
+    <div class="GALLERY">
+        <div class="thumbnail"  onclick="showimage('image2')">
+            <img  src="img.2.avif"  alt="image.2.avif">
+        </div>
+        <div class="thumbnail"  onclick="showimage('imgage3')">
+            <img  src="img.3.jpeg"  alt="image.3.jpeg">
+        </div>
+        <div class="thumbnail"  onclick="showimage('image4')">
+            <img  src="img.4.jpeg"  alt="image.4.jpeg">
+        </div>
+        <div  id="lightbox"  class="lightbox"  onclick="closelightbox()">
+            <img  id="lightbox-img"  src=""  alt="enlarged image">
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>
